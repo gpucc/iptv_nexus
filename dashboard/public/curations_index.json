@@ -1,0 +1,79 @@
+{
+  "curations": [
+    {
+      "name": "Neon Cyberpunk Cinema",
+      "filename": "Neon Cyberpunk Cinema.json",
+      "description": "Curated selection of 35mm and anamorphic sci-fi and neo-noir masterworks.",
+      "channelCount": 1,
+      "updatedAt": "2026-10-24T09:25:18.649391Z",
+      "preferredGenres": [
+        "Sci-Fi & Cyberpunk",
+        "Crime Thriller & Neo-Noir"
+      ]
+    },
+    {
+      "name": "Must-See Prime",
+      "filename": "Must-See Prime.json",
+      "description": "Curated selection of 0 broadcast channels.",
+      "channelCount": 0,
+      "updatedAt": "2026-10-24T09:25:07.519084Z",
+      "preferredGenres": []
+    },
+    {
+      "name": "Must-See PrNeon Cyberpunk Cinemaime",
+      "filename": "Must-See PrNeon Cyberpunk Cinemaime.json",
+      "description": "User curated broadcast list containing 8 channels.",
+      "channelCount": 8,
+      "updatedAt": "2026-10-24T09:24:22.514490Z",
+      "preferredGenres": [
+        "Independent Feature Films"
+      ]
+    },
+    {
+      "name": "International Culture & Science",
+      "filename": "International Culture  Science.json",
+      "description": "Super Hi-Vision Japanese culture, K-Culture renaissance, and live orbital NASA streams.",
+      "channelCount": 1,
+      "updatedAt": "2026-10-24T09:19:07.869688Z",
+      "preferredGenres": [
+        "Culture & Documentary",
+        "Science & Space Exploration"
+      ]
+    },
+    {
+      "name": "Ultra Sports & 4K SlowMo",
+      "filename": "Ultra Sports  4K SlowMo.json",
+      "description": "High-velocity live athletics featuring 1000fps Phantom cameras, Spidercam wire rigs, and full-frame lenses.",
+      "channelCount": 1,
+      "updatedAt": "2026-10-24T09:19:07.860796Z",
+      "preferredGenres": [
+        "Live Sports",
+        "Extreme Sports"
+      ]
+    },
+    {
+      "name": "Cinephile 35mm & Anamorphic",
+      "filename": "Cinephile 35mm  Anamorphic.json",
+      "description": "Legendary cinema shot on Panavision 35mm, ARRI Studio, with Cooke and Zeiss Master Primes.",
+      "channelCount": 1,
+      "updatedAt": "2026-10-24T09:19:07.852289Z",
+      "preferredGenres": [
+        "Cinema",
+        "Neo-Noir",
+        "Crime Thriller"
+      ]
+    },
+    {
+      "name": "Global Breaking News Matrix",
+      "filename": "Global Breaking News Matrix.json",
+      "description": "Around-the-clock uncorrupted international intelligence from accredited global bureaus.",
+      "channelCount": 0,
+      "updatedAt": "2026-10-24T09:19:07.852289Z",
+      "preferredGenres": [
+        "News & Weather",
+        "Global News",
+        "Financial News"
+      ]
+    }
+  ]
+}

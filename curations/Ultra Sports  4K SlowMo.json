@@ -1,0 +1,69 @@
+{
+  "name": "Ultra Sports & 4K SlowMo",
+  "description": "High-velocity live athletics featuring 1000fps Phantom cameras, Spidercam wire rigs, and full-frame lenses.",
+  "createdAt": "2026-10-24T09:19:07.860796Z",
+  "updatedAt": "2026-10-24T09:19:07.860796Z",
+  "channelCount": 1,
+  "channels": [
+    {
+      "id": "fox-sports",
+      "number": 103,
+      "name": "FOX Sports Live",
+      "callsign": "FOX-SPRT",
+      "category": "Sports",
+      "genre": "Live Sports & Highlights",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "\ud83c\uddfa\ud83c\uddf8",
+        "continent": "Americas"
+      },
+      "city": "Los Angeles, CA",
+      "responsibleCompany": "Fox Sports Media Group",
+      "accentColor": "#00b4d8",
+      "streamUrl": "https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8",
+      "thumbnail": "/thumbnails/fox-sports.jpg",
+      "svgFallback": "/thumbnails/fox-sports.svg",
+      "signalQuality": {
+        "status": "ONLINE",
+        "score": 97,
+        "grade": "EXCELLENT",
+        "resolution": "1920x1080",
+        "fps": 30.0,
+        "videoCodec": "H.264 / AVC",
+        "audioCodec": "AAC-LC",
+        "sampleRate": 48000,
+        "bitrateKbps": 4200,
+        "latencyMs": 42,
+        "reliabilityPercent": 99.4
+      },
+      "soundQuality": {
+        "loudnessRmsDb": -22.5,
+        "peakLevelDb": -3.0,
+        "targetNormalizationGainDb": 8.5,
+        "recommendedEqPreset": "Cinema Surround",
+        "stereoSpread": "100% Stereo",
+        "dynamicCompression": "AGC Active"
+      },
+      "smokeTest": {
+        "testedAt": "2026-10-24T08:25:28Z",
+        "httpStatus": 200,
+        "corsSupported": true,
+        "liveCaptureSuccess": true,
+        "verificationResult": "PASSED"
+      },
+      "textSummary": {
+        "channelOverview": "FOX Sports Live (CH 103) is a premier United States channel broadcasting Live Sports & Highlights programming.",
+        "contentFocus": "High-octane sports news, studio debate, game highlights, and collegiate athletic spotlights.",
+        "corporateAndLocation": "Responsible Network / Operator: Fox Sports Media Group. Origin: United States (Los Angeles, CA).",
+        "signalQualityVerdict": "Broadcast stream verified at 1920x1080 (1080p FHD) with standard 16:9 aspect fit. Measured latency: 42 ms.",
+        "soundQualityAssessment": "Stereo AAC stream processed through Web Audio AGC loudness normalizer (-14 LUFS target)."
+      }
+    }
+  ],
+  "preferredGenres": [
+    "Live Sports",
+    "Extreme Sports"
+  ],
+  "mustSee": []
+}

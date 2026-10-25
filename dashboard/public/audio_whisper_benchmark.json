@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-10-24 05:58:20Z",
+  "gpu": "NVIDIA GeForce GTX 1070 Ti (8GB)",
+  "benchmark_results": [
+    {
+      "model": "tiny.en",
+      "device": "cpu",
+      "compute_type": "int8",
+      "load_time_sec": 3.748,
+      "transcription_time_sec": 0.468,
+      "audio_duration_sec": 10.8,
+      "real_time_factor": 0.043,
+      "speedup_vs_realtime": "23.1x real-time",
+      "vram_delta_mb": 0.0,
+      "vram_used_mb": 5202.1,
+      "ram_used_mb": 194.9,
+      "transcript": "Vincent, he is walking into the terminal.  Neil McCauley is armed and dangerous, Lieutenant Hannah.  Tell Chris she earlys to hold his position.",
+      "detected_language": "en",
+      "detected_characters": [
+        "Hannah",
+        "Vincent"
+      ],
+      "search_queries": [
+        {
+          "type": "exact_quote",
+          "query": "\"Vincent, he is walking into the terminal.\" movie quote",
+          "engine": "google"
+        },
+        {
+          "type": "character_identity",
+          "query": "Heat (1995) character \"Hannah\" cast",
+          "target": "https://www.imdb.com/find/?q=Hannah"
+        },
+        {
+          "type": "character_identity",
+          "query": "Heat (1995) character \"Vincent\" cast",
+          "target": "https://www.imdb.com/find/?q=Vincent"
+        }
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "model": "base.en",
+      "device": "cpu",
+      "compute_type": "int8",
+      "load_time_sec": 3.865,
+      "transcription_time_sec": 0.798,
+      "audio_duration_sec": 10.8,
+      "real_time_factor": 0.074,
+      "speedup_vs_realtime": "13.5x real-time",
+      "vram_delta_mb": 0.0,
+      "vram_used_mb": 5202.1,
+      "ram_used_mb": 255.9,
+      "transcript": "Vincent, he is walking into the terminal.  Neil McCauley is armed and dangerous, Lieutenant Hannah.  Tell Chris she earlies to hold his position.",
+      "detected_language": "en",
+      "detected_characters": [
+        "Hannah",
+        "Vincent"
+      ],
+      "search_queries": [
+        {
+          "type": "exact_quote",
+          "query": "\"Vincent, he is walking into the terminal.\" movie quote",
+          "engine": "google"
+        },
+        {
+          "type": "character_identity",
+          "query": "Heat (1995) character \"Hannah\" cast",
+          "target": "https://www.imdb.com/find/?q=Hannah"
+        },
+        {
+          "type": "character_identity",
+          "query": "Heat (1995) character \"Vincent\" cast",
+          "target": "https://www.imdb.com/find/?q=Vincent"
+        }
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "model": "tiny.en",
+      "device": "cpu",
+      "compute_type": "int8",
+      "load_time_sec": 0.353,
+      "transcription_time_sec": 0.402,
+      "audio_duration_sec": 10.61,
+      "real_time_factor": 0.038,
+      "speedup_vs_realtime": "26.4x real-time",
+      "vram_delta_mb": 0.0,
+      "vram_used_mb": 5202.1,
+      "ram_used_mb": 223.7,
+      "transcript": "Officer K., report immediately to Lieutenant Joshi.  Sapper Morton has been neutralized.  The child was born, not manufactured.",
+      "detected_language": "en",
+      "detected_characters": [
+        "Joshi",
+        "Sapper Morton"
+      ],
+      "search_queries": [
+        {
+          "type": "exact_quote",
+          "query": "\"Officer K., report immediately to Lieutenant Joshi.\" movie quote",
+          "engine": "google"
+        },
+        {
+          "type": "character_identity",
+          "query": "Heat (1995) character \"Joshi\" cast",
+          "target": "https://www.imdb.com/find/?q=Joshi"
+        },
+        {
+          "type": "character_identity",
+          "query": "Heat (1995) character \"Sapper Morton\" cast",
+          "target": "https://www.imdb.com/find/?q=Sapper+Morton"
+        }
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "model": "tiny.en",
+      "device": "cuda",
+      "compute_type": "float16",
+      "error": "Requested float16 compute type, but the target device or backend do not support efficient float16 computation.",
+      "status": "FAILED"
+    }
+  ],
+  "ollama_safe_switching_tested": true,
+  "summary_recommendation": {
+    "preferred_engine": "faster-whisper (CTranslate2) with INT8 Quantization",
+    "default_device": "CPU (Zero GPU VRAM impact, 4 threads, 10x-15x faster than real-time)",
+    "gpu_fallback_policy": "Safe Dynamic Routing: If VRAM headroom > 2.5GB and Vision Scan idle, run on CUDA; otherwise automatically use CPU with 0MB VRAM footprint"
+  }
+}

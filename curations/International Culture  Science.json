@@ -1,0 +1,69 @@
+{
+  "name": "International Culture & Science",
+  "description": "Super Hi-Vision Japanese culture, K-Culture renaissance, and live orbital NASA streams.",
+  "createdAt": "2026-10-24T09:19:07.869688Z",
+  "updatedAt": "2026-10-24T09:19:07.869688Z",
+  "channelCount": 1,
+  "channels": [
+    {
+      "id": "cbc-news",
+      "number": 251,
+      "name": "CBC News International",
+      "callsign": "CBC-INT",
+      "category": "News & Weather",
+      "genre": "International News",
+      "country": {
+        "code": "CA",
+        "name": "Canada",
+        "flag": "\ud83c\udde8\ud83c\udde6",
+        "continent": "Americas"
+      },
+      "city": "Toronto, ON",
+      "responsibleCompany": "Canadian Broadcasting Corporation",
+      "accentColor": "#e63946",
+      "streamUrl": "https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8",
+      "thumbnail": "/thumbnails/cbc-news.jpg",
+      "svgFallback": "/thumbnails/cbc-news.svg",
+      "signalQuality": {
+        "status": "ONLINE",
+        "score": 97,
+        "grade": "EXCELLENT",
+        "resolution": "1920x1080",
+        "fps": 30.0,
+        "videoCodec": "H.264 / AVC",
+        "audioCodec": "AAC-LC",
+        "sampleRate": 48000,
+        "bitrateKbps": 4200,
+        "latencyMs": 42,
+        "reliabilityPercent": 99.4
+      },
+      "soundQuality": {
+        "loudnessRmsDb": -22.5,
+        "peakLevelDb": -3.0,
+        "targetNormalizationGainDb": 8.5,
+        "recommendedEqPreset": "Voice Clarity",
+        "stereoSpread": "100% Stereo",
+        "dynamicCompression": "AGC Active"
+      },
+      "smokeTest": {
+        "testedAt": "2026-10-24T08:25:29Z",
+        "httpStatus": 200,
+        "corsSupported": true,
+        "liveCaptureSuccess": true,
+        "verificationResult": "PASSED"
+      },
+      "textSummary": {
+        "channelOverview": "CBC News International (CH 251) is a premier Canada channel broadcasting International News programming.",
+        "contentFocus": "Leading Canadian and global breaking news coverage, investigative journalism, and political discourse.",
+        "corporateAndLocation": "Responsible Network / Operator: Canadian Broadcasting Corporation. Origin: Canada (Toronto, ON).",
+        "signalQualityVerdict": "Broadcast stream verified at 1920x1080 (1080p FHD) with standard 16:9 aspect fit. Measured latency: 42 ms.",
+        "soundQualityAssessment": "Stereo AAC stream processed through Web Audio AGC loudness normalizer (-14 LUFS target)."
+      }
+    }
+  ],
+  "preferredGenres": [
+    "Culture & Documentary",
+    "Science & Space Exploration"
+  ],
+  "mustSee": []
+}

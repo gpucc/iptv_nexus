@@ -1,0 +1,7 @@
+# IPTV Project Python Environment Requirements
+# Dedicated Virtual Environment (.venv)
+
+nvidia-ml-py>=12.0.0
+pynvml>=13.0.0
+requests>=2.31.0
+psutil>=5.9.0

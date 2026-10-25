@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#141a29"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#588157"/>
+      <stop offset="100%" stop-color="#00f5d4"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#grid)"/>
+  
+  <!-- Glowing neon border -->
+  <rect x="2" y="2" width="636" height="356" rx="8" fill="none" stroke="#588157" stroke-width="2" stroke-opacity="0.4"/>
+  
+  <!-- Test pattern bars on top corner -->
+  <g opacity="0.6">
+    <rect x="24" y="24" width="16" height="6" fill="#ffffff"/>
+    <rect x="42" y="24" width="16" height="6" fill="#ffff00"/>
+    <rect x="60" y="24" width="16" height="6" fill="#00ffff"/>
+    <rect x="78" y="24" width="16" height="6" fill="#00ff00"/>
+    <rect x="96" y="24" width="16" height="6" fill="#ff00ff"/>
+    <rect x="114" y="24" width="16" height="6" fill="#ff0000"/>
+    <rect x="132" y="24" width="16" height="6" fill="#0000ff"/>
+  </g>
+  
+  <!-- Channel Badge -->
+  <rect x="530" y="22" width="86" height="26" rx="4" fill="rgba(0,0,0,0.6)" stroke="#588157" stroke-width="1"/>
+  <text x="573" y="39" font-family="'Orbitron', 'Inter', monospace" font-size="12" font-weight="bold" fill="#588157" text-anchor="middle">CH 902</text>
+
+  <!-- Live On Air Beacon -->
+  <circle cx="34" cy="54" r="5" fill="#00ff88"/>
+  <text x="46" y="58" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#00ff88" letter-spacing="1.5">LIVE ON AIR</text>
+  
+  <!-- Center Holographic Logo / Channel Name -->
+  <g transform="translate(320, 170)">
+    <circle r="52" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="6,4" opacity="0.8"/>
+    <circle r="44" fill="rgba(0,0,0,0.5)"/>
+    <text y="-8" font-family="'Orbitron', sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">PBS-TRVL</text>
+    <text y="14" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#588157" text-anchor="middle" letter-spacing="1">BROADCAST</text>
+  </g>
+
+  <!-- Channel Name Title -->
+  <text x="320" y="265" font-family="'Inter', sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">PBS Travel Escapes</text>
+  
+  <!-- Category & Resolution Badges -->
+  <text x="320" y="295" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="rgba(255,255,255,0.7)" text-anchor="middle">Lifestyle & Food • World Travel & Heritage</text>
+  
+  <!-- Bottom Telemetry HUD Line -->
+  <line x1="24" y1="325" x2="616" y2="325" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="24" y="342" font-family="'Orbitron', monospace" font-size="10" fill="rgba(255,255,255,0.4)">SIG: 1080p60 • ACC-HLS • 48kHz</text>
+  <text x="616" y="342" font-family="'Orbitron', monospace" font-size="10" fill="#588157" text-anchor="end">QUAL: 99.4%</text>
+</svg>

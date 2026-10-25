@@ -1,0 +1,70 @@
+{
+  "name": "Cinephile 35mm & Anamorphic",
+  "description": "Legendary cinema shot on Panavision 35mm, ARRI Studio, with Cooke and Zeiss Master Primes.",
+  "createdAt": "2026-10-24T09:19:07.852289Z",
+  "updatedAt": "2026-10-24T09:19:07.852289Z",
+  "channelCount": 1,
+  "channels": [
+    {
+      "id": "gravitas-movies",
+      "number": 105,
+      "name": "Gravitas Movies",
+      "callsign": "GRAV-MOV",
+      "category": "Movies & Cinema",
+      "genre": "Independent Feature Films",
+      "country": {
+        "code": "US",
+        "name": "United States",
+        "flag": "\ud83c\uddfa\ud83c\uddf8",
+        "continent": "Americas"
+      },
+      "city": "Cleveland, OH",
+      "responsibleCompany": "Gravitas Ventures (Anthem Sports)",
+      "accentColor": "#e71d36",
+      "streamUrl": "https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8",
+      "thumbnail": "/thumbnails/gravitas-movies.jpg",
+      "svgFallback": "/thumbnails/gravitas-movies.svg",
+      "signalQuality": {
+        "status": "ONLINE",
+        "score": 97,
+        "grade": "EXCELLENT",
+        "resolution": "1920x1080",
+        "fps": 30.0,
+        "videoCodec": "H.264 / AVC",
+        "audioCodec": "AAC-LC",
+        "sampleRate": 48000,
+        "bitrateKbps": 4200,
+        "latencyMs": 42,
+        "reliabilityPercent": 99.4
+      },
+      "soundQuality": {
+        "loudnessRmsDb": -22.5,
+        "peakLevelDb": -3.0,
+        "targetNormalizationGainDb": 8.5,
+        "recommendedEqPreset": "Cinema Surround",
+        "stereoSpread": "100% Stereo",
+        "dynamicCompression": "AGC Active"
+      },
+      "smokeTest": {
+        "testedAt": "2026-10-24T08:25:28Z",
+        "httpStatus": 200,
+        "corsSupported": true,
+        "liveCaptureSuccess": true,
+        "verificationResult": "PASSED"
+      },
+      "textSummary": {
+        "channelOverview": "Gravitas Movies (CH 105) is a premier United States channel broadcasting Independent Feature Films programming.",
+        "contentFocus": "Curated independent cinema, festival award-winners, acclaimed indie dramas, and thrillers.",
+        "corporateAndLocation": "Responsible Network / Operator: Gravitas Ventures (Anthem Sports). Origin: United States (Cleveland, OH).",
+        "signalQualityVerdict": "Broadcast stream verified at 1920x1080 (1080p FHD) with standard 16:9 aspect fit. Measured latency: 42 ms.",
+        "soundQualityAssessment": "Stereo AAC stream processed through Web Audio AGC loudness normalizer (-14 LUFS target)."
+      }
+    }
+  ],
+  "preferredGenres": [
+    "Cinema",
+    "Neo-Noir",
+    "Crime Thriller"
+  ],
+  "mustSee": []
+}

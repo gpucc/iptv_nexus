@@ -1,0 +1,50 @@
+# Python Environment & Bytecode
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Node & Frontend Build Dependencies
+node_modules/
+dashboard/node_modules/
+epg/node_modules/
+dist/
+dashboard/dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Databases, Telemetry & Machine Snapshots
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+iptv_memory.db
+dashboard/public/gpu_telemetry.json
+dashboard/public/system_telemetry.json
+
+# Ephemeral Reports & Scratch Dumps
+reports/
+scratch/
+*.log
+parsed_channels_sample.json
+git_publish.md
+
+# Secrets, Credentials & Local Config
+.env
+.env.local
+*.env
+*.pem
+*.key
+*.pfx
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CYBER-IPTV // 3D Master Broadcast Deck & Control Center</title>
+    <meta name="description" content="Next-generation Three.js 3D IPTV Control Panel Dashboard with flat 16:9 high-resolution monitor, international channel directory, stream DVR capture, and expandable JSON telemetry." />
+    
+    <!-- Modern Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="deck-theme">
+    <!-- Top Global Broadcast Header -->
+    <!-- Top Global Broadcast Header (Dual Deck Rows: Row 1 Broadcast Matrix & Telemetry, Row 2 Curation & Action Controls) -->
+    <header class="master-header" id="masterHeader">
+      <!-- ROW 1: Brand & Real-Time Signal & Hardware Telemetry -->
+      <div class="header-row top-deck-row" id="topDeckRow">
+        <div class="header-brand">
+          <div class="brand-beacon">
+            <span class="beacon-pulse"></span>
+            <span class="beacon-dot"></span>
+          </div>
+          <div class="brand-titles">
+            <h1 class="brand-logo">NEXUS<span>-IPTV</span></h1>
+            <span class="brand-sub">INTERNATIONAL BROADCAST MATRIX // 15,775 CHANNELS</span>
+          </div>
+        </div>
+
+        <!-- Live Stream Telemetry Pill -->
+        <div class="telemetry-bar" id="telemetryBar">
+          <div class="telemetry-item">
+            <span class="badge on-air" id="streamStatusBadge">ON AIR</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="tele-label">SIGNAL</span>
+            <span class="tele-val text-cyan" id="signalQualityVal">98.5%</span>
+            <div class="signal-bars" id="signalBars">
+              <span class="bar active"></span>
+              <span class="bar active"></span>
+              <span class="bar active"></span>
+              <span class="bar active"></span>
+              <span class="bar active"></span>
+            </div>
+          </div>
+          <div class="telemetry-item">
+            <span class="tele-label">ASPECT</span>
+            <span class="badge-res" id="telemetryAspect">16:9 RECT</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="tele-label">RES</span>
+            <span class="tele-val badge-res" id="telemetryRes">1080p60</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="tele-label">LATENCY</span>
+            <span class="tele-val" id="telemetryLatency">42 ms</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="tele-label">AGC NORM</span>
+            <span class="badge agc-badge" id="telemetryAgc">ACTIVE</span>
+          </div>
+          <div class="telemetry-item" id="gpuTelemetryItem" title="Real-time NVIDIA GPU VRAM Telemetry & Health">
+            <span class="tele-label">GTX 1070 Ti</span>
+            <span class="tele-val text-cyan" id="gpuVramReadout">1.0 GB / 8.0 GB</span>
+            <span class="badge on-air" id="gpuHealthBadge">OPTIMAL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW 2: Adaptive Curation Deck (Left) + Quick Action Controls (Right) -->
+      <div class="header-row sub-deck-row" id="subDeckRow">
+        <!-- Curation List Selector & Creator (Saves to /curations & iptv_memory DB) -->
+        <div class="curation-header-group" id="curationHeaderGroup" title="Adaptive Curation Lists: Select, tune, add channels, or create custom lists">
+          <div class="curation-input-container">
+            <span class="curation-badge-tag">CURATION:</span>
+            <select id="curationListSelect" class="curation-select-dropdown" title="Select Curation List to load and filter channels">
+              <option value="Must-See Prime">Must-See Prime (8 ch)</option>
+            </select>
+            <input type="text" id="curationListNameInput" class="curation-name-input" value="Must-See Prime" placeholder="List Name..." title="Type to rename or create new curation list" />
+            <button class="btn-curation-action btn-curation-tune" id="btnTuneCurationList" title="Tune immediately to the first channel in this curated list">
+              <span>▶ TUNE</span>
+            </button>
+            <button class="btn-curation-action btn-curation-add" id="btnAddCurrentToCuration" title="Add currently playing channel to this curation list">
+              <span>➕ ADD CH</span>
+            </button>
+            <button class="btn-curation-save" id="btnSaveCurationList" title="Save current named curation to /curations directory and browser storage">
+              <span class="save-icon">💾</span>
+              <span class="save-label">SAVE</span>
+            </button>
+            <button class="btn-curation-new" id="btnNewCurationList" title="Start new custom curation list">
+              <span>✨ NEW</span>
+            </button>
+          </div>
+          <div class="curation-status-sub">
+            <span class="curation-count-pill" id="curationCountPill">8 CHANNELS</span>
+            <span class="curation-filter-state" id="curationFilterState">● Active on Dock Rail</span>
+            <button class="btn-curation-clear-filter" id="btnClearCurationFilter" title="Reset filter to show all channels">✕ SHOW ALL</button>
+            <span class="curation-db-pill" id="curationDbPill">DB: iptv_memory</span>
+            <span class="curation-path-pill" id="curationPathPill">📁 /curations</span>
+          </div>
+        </div>
+
+        <!-- Quick Action Controls -->
+        <div class="header-actions">
+          <!-- DVR Record Button -->
+          <button class="btn-icon btn-dvr" id="btnDvrRecord" title="DVR Stream Recorder: Record live stream and save by timestamp, channel number & brand">
+            <span class="dvr-dot"></span>
+            <span class="btn-text" id="btnDvrText">DVR REC</span>
+          </button>
+
+          <button class="btn-icon" id="btnDvrVault" title="Open DVR Saved Recordings Gallery">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            <span class="btn-text">DVR CLIPS (<span id="dvrClipsCount">0</span>)</span>
+          </button>
+
+          <button class="btn-icon" id="btnGlobalDirectory" title="Complete Global Directory: Search all 15,775 International Channels">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span class="btn-text">ALL CHANNELS (15K+)</span>
+          </button>
+
+          <button class="btn-icon" id="btnViewMode" title="Toggle 3D View (16:9 Deck / Cinema Focus / Matrix)">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="btn-text">16:9 DECK</span>
+          </button>
+          
+          <button class="btn-icon" id="btnAudioDeck" title="Audio Normalizer & Equalizer">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5v14M7 9v6M22 12h-2M4 12H2"/></svg>
+            <span class="btn-text">SOUND</span>
+          </button>
+          
+          <button class="btn-icon" id="btnJsonInspector" title="Expandable Channel Telemetry & Complete Directory JSON">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <span class="btn-text">JSON DATA</span>
+          </button>
+
+          <button class="btn-icon btn-vision" id="btnVisionScan" title="AI Vision Scan: Capture live screen-resolution frame & analyze with Ollama Gemma 4">
+            <span class="vision-pulse-dot"></span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/></svg>
+            <span class="btn-text">GEMMA 4 SCAN</span>
+          </button>
+
+          <button class="btn-icon btn-netball" id="btnNetballScanner" title="Netball Live Match Scanner: Scan Constellation Cup, Diamonds & Silver Ferns broadcast feeds & US EST schedules">
+            <span class="netball-radar-dot"></span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+            <span class="btn-text">NETBALL SCAN</span>
+          </button>
+
+          <button class="btn-icon btn-primary" id="btnKeypad" title="Direct Channel Dial">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="8.01" y2="6"/><line x1="12" y1="6" x2="12.01" y2="6"/><line x1="16" y1="6" x2="16.01" y2="6"/><line x1="8" y1="10" x2="8.01" y2="10"/><line x1="12" y1="10" x2="12.01" y2="10"/><line x1="16" y1="10" x2="16.01" y2="10"/><line x1="8" y1="14" x2="8.01" y2="14"/><line x1="12" y1="14" x2="12.01" y2="14"/><line x1="16" y1="14" x2="16.01" y2="14"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            <span class="btn-text">DIAL</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Viewport (Three.js 3D WebGL Canvas) -->
+    <main class="viewport-container" id="viewportContainer">
+      <canvas id="threeCanvas"></canvas>
+
+      <!-- Video Element (Muted / Audio Hook for Web Audio API & Three.js Video Texture) -->
+      <video id="masterVideo" playsinline crossorigin="anonymous" class="hidden-video"></video>
+
+      <!-- 3D HUD Reticle & Interactive Instructions -->
+      <div class="hud-overlay" id="hudOverlay">
+        <div class="hud-grid-crosshair top-left"></div>
+        <div class="hud-grid-crosshair top-right"></div>
+        <div class="hud-grid-crosshair bottom-left"></div>
+        <div class="hud-grid-crosshair bottom-right"></div>
+
+        <!-- Broadcast Resolution of Original Video Source (Grey text below bottom left corner of central video display) -->
+        <div class="monitor-source-resolution" id="monitorSourceResolution" title="Broadcast resolution of original video source">
+          <span class="lbl-res-prefix">SOURCE RES:</span>
+          <span class="lbl-res-value" id="lblOriginalSourceRes">1080p (Full HD)</span>
+        </div>
+
+        <!-- Vertical Sound Volume Slider & Mute Button (Right of Central Video Display) -->
+        <aside class="central-audio-deck" id="centralAudioDeck" title="Master Audio Deck: Volume & Mute">
+          <button class="btn-deck-mute" id="btnDeckMute" title="Toggle Mute [M]" aria-label="Toggle Mute">
+            <svg class="vol-icon unmuted" id="iconDeckUnmuted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+            </svg>
+            <svg class="vol-icon muted hidden" id="iconDeckMuted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <line x1="23" y1="9" x2="17" y2="15"/>
+              <line x1="17" y1="9" x2="23" y2="15"/>
+            </svg>
+          </button>
+          
+          <div class="vertical-volume-track" id="verticalVolumeTrack">
+            <input 
+              type="range" 
+              id="verticalVolumeSlider" 
+              class="vertical-slider" 
+              min="0" 
+              max="1" 
+              step="0.01" 
+              value="1" 
+              orient="vertical" 
+              title="Master Sound Volume"
+              aria-label="Master Sound Volume Slider"
+            />
+            <div class="vslider-fill" id="vsliderFill" style="height: 100%;"></div>
+          </div>
+
+          <span class="vol-level-readout" id="volLevelReadout">100%</span>
+        </aside>
+
+        <!-- Favorite Heart Indicator (ML, RSI & Curation Feedback: 50x50px, to the left of GPU Stats square box) -->
+        <button class="favorite-heart-btn" id="btnFavoriteToggle" title="Mark as Favorite // Teaches ML, RSI & Curation Engine" aria-label="Toggle Favorite">
+          <svg class="heart-svg" viewBox="0 0 24 24" width="26" height="26">
+            <path class="heart-path" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+        </button>
+
+        <!-- System HW Telemetry Small Square HUD Box (Upper Right Hand Corner) -->
+        <aside class="system-stats-hud-box" id="systemStatsHudBox" title="Hardware Telemetry & Ollama Gemma 4 Safety Monitor">
+          <div class="hud-box-header">
+            <div class="hud-box-led" id="hudStatusLed"></div>
+            <span class="hud-box-title">HW MATRIX</span>
+            <span class="hud-box-badge" id="hudGpuChip">1070 Ti</span>
+          </div>
+
+          <div class="hud-stat-grid">
+            <!-- GPU Cell -->
+            <div class="hud-stat-cell" id="hudGpuCell">
+              <div class="cell-head">
+                <span class="cell-label">GPU</span>
+                <span class="cell-sub" id="hudGpuTemp">50°C</span>
+              </div>
+              <div class="cell-value text-cyan" id="hudGpuVal">22%</div>
+            </div>
+
+            <!-- VRAM Cell -->
+            <div class="hud-stat-cell" id="hudVramCell">
+              <div class="cell-head">
+                <span class="cell-label">VRAM</span>
+                <span class="cell-sub" id="hudVramPct">54%</span>
+              </div>
+              <div class="cell-value text-magenta" id="hudVramVal">4.5G</div>
+            </div>
+
+            <!-- CPU Cell -->
+            <div class="hud-stat-cell" id="hudCpuCell">
+              <div class="cell-head">
+                <span class="cell-label">CPU</span>
+                <span class="cell-sub" id="hudCpuCores">16T</span>
+              </div>
+              <div class="cell-value text-yellow" id="hudCpuVal">14%</div>
+            </div>
+
+            <!-- System RAM Cell -->
+            <div class="hud-stat-cell" id="hudRamCell">
+              <div class="cell-head">
+                <span class="cell-label">RAM</span>
+                <span class="cell-sub" id="hudRamPct">32%</span>
+              </div>
+              <div class="cell-value text-green" id="hudRamVal">20.4G</div>
+            </div>
+          </div>
+
+          <div class="hud-box-footer">
+            <div class="hud-gauge-bar">
+              <div class="hud-gauge-fill" id="hudGaugeFill" style="width: 54%;"></div>
+            </div>
+            <div class="hud-ollama-row" id="hudOllamaRow">
+              <span class="ollama-beacon-dot"></span>
+              <span class="ollama-tag" id="hudOllamaTag">GEMMA 4: SAFE</span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- LEFT FLANK: Comprehensive Channel Text Dossier & Must-See ML/RSI Recommendations -->
+        <aside class="channel-dossier-panel" id="channelDossierPanel" title="Channel Dossier & Must-See Curated Programming">
+          <div class="panel-header tabbed-header">
+            <div class="flank-tabs-group">
+              <button class="flank-tab-btn active" id="btnTabDossier" title="Channel Technical Specifications & Editorial Intel">
+                <span class="dossier-dot"></span>
+                <span>CHANNEL INTEL</span>
+              </button>
+              <button class="flank-tab-btn" id="btnTabMustSee" title="Curated Must-See content ranked by ML & RSI Preference Momentum">
+                <span class="must-see-star">🌟</span>
+                <span>MUST-SEE (RSI)</span>
+              </button>
+            </div>
+            <span class="dossier-tag" id="dosCountryTag">US</span>
+          </div>
+
+          <!-- TAB 1: Channel Intel & Specifications -->
+          <div class="dossier-body" id="dosContentTab">
+            <!-- Channel Identification -->
+            <div class="dos-card dos-main-id">
+              <div class="dos-badge-row">
+                <span class="dos-ch-num" id="dosChNum">CH 105</span>
+                <span class="dos-callsign" id="dosCallsign">GRAV-MOV</span>
+              </div>
+              <h2 class="dos-name" id="dosName">Gravitas Movies</h2>
+              <span class="dos-genre" id="dosGenre">Movies & Independent Cinema</span>
+            </div>
+
+            <!-- Broadcaster & Entity -->
+            <div class="dos-card">
+              <span class="dos-lbl">BROADCASTER / PARENT STUDIO</span>
+              <strong class="dos-val text-cyan" id="dosCompany">Gravitas Ventures (Anthem Sports)</strong>
+              <div class="dos-sub-row">
+                <span class="dos-lbl">ORIGIN / HQ:</span>
+                <span class="dos-val" id="dosOrigin">Cleveland, OH (United States)</span>
+              </div>
+            </div>
+
+            <!-- Signal & Format Specs -->
+            <div class="dos-card">
+              <span class="dos-lbl">TECHNICAL BROADCAST SPECS</span>
+              <div class="dos-specs-grid">
+                <div class="spec-item">
+                  <span class="spec-k">RESOLUTION</span>
+                  <span class="spec-v text-cyan" id="dosResolution">1080p60 Full HD</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-k">ASPECT RATIO</span>
+                  <span class="spec-v text-green" id="dosAspect">16:9 Standard</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-k">AUDIO AGC</span>
+                  <span class="spec-v text-magenta" id="dosAudioAgc">-14 LUFS Norm</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-k">SIGNAL SCORE</span>
+                  <span class="spec-v text-yellow" id="dosSignalScore">98.5% Optimal</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Channel Description & Profile -->
+            <div class="dos-card">
+              <span class="dos-lbl">PROGRAMMING OVERVIEW</span>
+              <p class="dos-desc" id="dosDesc">Curated independent feature films, festival award-winners, acclaimed indie dramas, thrillers, and premier festival selections.</p>
+            </div>
+          </div>
+
+          <!-- TAB 2: ML & RSI 'Must See' Curated Deck (Clickable Direct Links) -->
+          <div class="must-see-body hidden" id="mustSeeTab">
+            <div class="must-see-header-banner">
+              <div class="ms-banner-left">
+                <span class="ms-pulse-dot"></span>
+                <span class="ms-banner-kicker">ADAPTIVE RSI CURATION</span>
+              </div>
+              <span class="ms-db-tag">iptv_memory.db</span>
+            </div>
+            <div class="must-see-scroll-deck" id="mustSeeItemsList">
+              <!-- Dynamically populated with ranked Must-See cards and clickable direct tune links -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- RIGHT FLANK: Findings Orchestrator removed for overhaul (to be revisited later) -->
+
+        <!-- Live DVR Recording HUD Banner -->
+        <div class="dvr-recording-hud hidden" id="dvrRecordingHud">
+          <div class="dvr-pulse-dot"></div>
+          <div class="dvr-hud-info">
+            <span class="dvr-tag">DVR RECORDING ACTIVE</span>
+            <span class="dvr-duration" id="dvrElapsedTimer">00:00:00</span>
+            <span class="dvr-size" id="dvrSizeCounter">0.00 MB</span>
+          </div>
+          <button class="btn-stop-dvr" id="btnStopDvrHud">STOP & SAVE CLIP</button>
+        </div>
+
+        <!-- Autoplay Unlock Prompt / Audio Interceptor Overlay -->
+        <div class="audio-unlock-pill hidden" id="audioUnlockPill">
+          <div class="unlock-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+          </div>
+          <div class="unlock-text">
+            <strong>Stream Muted by Browser Policy</strong>
+            <span>Click anywhere to activate high-fidelity audio & AGC normalizer</span>
+          </div>
+          <button class="btn-unlock" id="btnUnlockAudio">ENABLE AUDIO</button>
+        </div>
+
+        <!-- Stream Test Pattern / Offline Fallback Display -->
+        <div class="test-pattern-overlay hidden" id="testPatternOverlay">
+          <div class="smpte-bars">
+            <div class="bar bar-white"></div>
+            <div class="bar bar-yellow"></div>
+            <div class="bar bar-cyan"></div>
+            <div class="bar bar-green"></div>
+            <div class="bar bar-magenta"></div>
+            <div class="bar bar-red"></div>
+            <div class="bar bar-blue"></div>
+          </div>
+          <div class="test-pattern-card">
+            <div class="test-icon">⚠️</div>
+            <h2 id="testPatternTitle">SIGNAL TEMPORARILY BUFFERING</h2>
+            <p id="testPatternMsg">Re-syncing stream telemetry packets. Please wait...</p>
+            <div class="test-actions">
+              <button class="btn-test" id="btnRetryStream">RETRY SIGNAL</button>
+              <button class="btn-test btn-surprise-hop" id="btnAutoHopSurprise" title="Immediately hop to another surprise channel">🎲 SURPRISE HOP</button>
+              <button class="btn-test btn-alt" id="btnSkipChannel">NEXT CHANNEL</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Card Hover Tooltip -->
+        <div class="card-tooltip" id="cardTooltip">
+          <div class="tt-header">
+            <span class="tt-num" id="ttNum">CH 101</span>
+            <span class="tt-res" id="ttRes">1080p</span>
+          </div>
+          <div class="tt-title" id="ttTitle">Channel Name</div>
+          <div class="tt-meta" id="ttMeta">News & Weather • Live</div>
+        </div>
+      </div>
+
+      <!-- Centered Channel Deck Stack: Channel Information Box & Channel Controls Box -->
+      <div class="center-deck-stack" id="centerDeckStack">
+        <!-- Separate Box 1: Channel Information Box (Centered below central video display) -->
+        <div class="channel-info-box" id="channelInfoBox">
+          <div class="ch-badge-box">
+            <span class="ch-number" id="activeChNumber">CH 101</span>
+            <span class="ch-callsign" id="activeChCallsign">ACCU-HD</span>
+          </div>
+          <div class="ch-titles">
+            <div class="ch-headline-row">
+              <span class="ch-flag" id="activeChFlag">🇺🇸</span>
+              <h2 class="ch-name" id="activeChName">AccuWeather NOW</h2>
+              <span class="badge badge-live">LIVE FEED</span>
+              <span class="badge badge-genre" id="activeChGenre">Weather & Climate</span>
+              <span class="ch-fps" id="activeChFps">60.0 FPS</span>
+            </div>
+            <div class="ch-corporate-line" id="activeChCorporate">
+              Responsible: <strong id="activeChCompany">AccuWeather Inc.</strong> • Origin: <span id="activeChOrigin">United States (State College, PA)</span>
+            </div>
+            <p class="ch-desc" id="activeChDesc">Hyper-local and global meteorological forecasts, severe storm tracking, and live radar telemetry.</p>
+          </div>
+        </div>
+
+        <!-- Separate Box 2: Channel Controls Box (Directly below Box 1) -->
+        <div class="channel-controls-box" id="channelControlsBox">
+          <button class="btn-changer" id="btnPrevChannel" title="Channel Down [Arrow Down]">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            <span>CH -</span>
+          </button>
+          
+          <button class="btn-changer btn-accent" id="btnRecallChannel" title="Previous Channel Recall [R]">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+            <span>RECALL</span>
+          </button>
+
+          <button class="btn-changer btn-play-pause" id="btnPlayPause" title="Play / Pause [Space]">
+            <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <svg class="icon-pause hidden" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+
+          <!-- Quick DVR Capture Button -->
+          <button class="btn-changer btn-dvr-deck" id="btnDvrDeck" title="One-Click DVR Stream Capture">
+            <span class="dvr-dot"></span>
+            <span>DVR REC</span>
+          </button>
+
+          <button class="btn-changer btn-random" id="btnRandomChannel" title="Surprise / Random Channel">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+            <span>SURPRISE</span>
+          </button>
+
+          <button class="btn-changer" id="btnNextChannel" title="Channel Up [Arrow Up]">
+            <span>CH +</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bottom Category Tabs & Channel Thumbnails Carousel -->
+    <section class="bottom-channel-dock" id="bottomChannelDock">
+      <!-- Filter Rows: Categories & International Countries -->
+      <div class="dock-header">
+        <div class="dock-filters-stack">
+          <!-- Country Filter Bar -->
+          <div class="country-pills" id="countryPills">
+            <button class="pill-btn country-pill active" data-country="ALL">🌐 ALL COUNTRIES</button>
+            <button class="pill-btn country-pill" data-country="US">🇺🇸 UNITED STATES</button>
+            <button class="pill-btn country-pill" data-country="UK">🇬🇧 UNITED KINGDOM</button>
+            <button class="pill-btn country-pill" data-country="CA">🇨🇦 CANADA</button>
+            <button class="pill-btn country-pill" data-country="FR">🇫🇷 FRANCE</button>
+            <button class="pill-btn country-pill" data-country="DE">🇩🇪 GERMANY</button>
+            <button class="pill-btn country-pill" data-country="ES">🇪🇸 SPAIN</button>
+            <button class="pill-btn country-pill" data-country="IT">🇮🇹 ITALY</button>
+            <button class="pill-btn country-pill" data-country="JP">🇯🇵 JAPAN</button>
+            <button class="pill-btn country-pill" data-country="KR">🇰🇷 SOUTH KOREA</button>
+            <button class="pill-btn country-pill" data-country="IN">🇮🇳 INDIA</button>
+            <button class="pill-btn country-pill" data-country="BR">🇧🇷 BRAZIL</button>
+            <button class="pill-btn country-pill" data-country="AU">🇦🇺 AUSTRALIA</button>
+          </div>
+
+          <!-- Category Filter Bar -->
+          <div class="category-pills" id="categoryPills">
+            <button class="pill-btn active" data-category="ALL">ALL CATEGORIES</button>
+            <button class="pill-btn" data-category="News & Weather">NEWS & WEATHER</button>
+            <button class="pill-btn" data-category="Sports">SPORTS</button>
+            <button class="pill-btn" data-category="Sci-Fi & Tech">SCI-FI & TECH</button>
+            <button class="pill-btn" data-category="Movies & Cinema">MOVIES & CINEMA</button>
+            <button class="pill-btn" data-category="Nature & Wildlife">NATURE</button>
+            <button class="pill-btn" data-category="Documentaries">DOCUMENTARIES</button>
+            <button class="pill-btn" data-category="Entertainment">ENTERTAINMENT</button>
+            <button class="pill-btn" data-category="Music & Audio">MUSIC</button>
+            <button class="pill-btn" data-category="Lifestyle & Food">LIFESTYLE</button>
+            <button class="pill-btn" data-category="Animation & Kids">ANIMATION</button>
+          </div>
+        </div>
+
+        <!-- Search Bar & Rail Sort -->
+        <div class="dock-search-sort-container">
+          <div class="dock-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="channelSearchInput" placeholder="Filter by name, country, language, or resolution..." autocomplete="off" />
+            <button class="btn-clear-search hidden" id="btnClearSearch">×</button>
+          </div>
+          <div class="dock-sort-wrapper">
+            <label for="dockSortSelect" class="dock-sort-label">SORT:</label>
+            <select id="dockSortSelect" class="dock-sort-select" title="Sort channel cards rail">
+              <option value="number">CH #</option>
+              <option value="name">Name (A-Z)</option>
+              <option value="resolution">Res (4K-SD)</option>
+              <option value="country">Country</option>
+              <option value="language">Language</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scrollable Channel Thumbnails Rail (16:9 Fitted Previews) -->
+      <div class="channel-cards-rail" id="channelCardsRail">
+        <!-- Populated dynamically with high-def 16:9 thumbnail cards -->
+      </div>
+    </section>
+
+    <!-- MODAL 1: Audio Deck & Normalization / EQ Panel -->
+    <div class="modal-backdrop hidden" id="audioModalBackdrop">
+      <div class="cyber-modal audio-deck-modal" id="audioDeckModal">
+        <div class="modal-header">
+          <div class="modal-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5v14M7 9v6M22 12h-2M4 12H2"/></svg>
+            <h2>ACOUSTIC NORMALIZER & EQUALIZER</h2>
+          </div>
+          <button class="btn-close-modal" id="btnCloseAudioModal">×</button>
+        </div>
+
+        <div class="modal-body audio-modal-content">
+          <!-- Normalization Toggle & Status -->
+          <div class="audio-control-card">
+            <div class="card-left">
+              <span class="card-title">AUTOMATIC LOUDNESS NORMALIZER (AGC)</span>
+              <p class="card-desc">Eliminates volume variations between international IPTV feeds using dynamic compression (-14 LUFS target).</p>
+            </div>
+            <label class="cyber-switch">
+              <input type="checkbox" id="toggleAgc" checked />
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <!-- Real-Time Decibel Meter -->
+          <div class="db-meter-section">
+            <div class="meter-labels">
+              <span>OUTPUT SPECTRUM LEVEL</span>
+              <span class="db-readout" id="dbReadout">-14.2 dB</span>
+            </div>
+            <div class="db-meter-bar">
+              <div class="meter-fill" id="meterFill"></div>
+              <div class="meter-peak" id="meterPeak"></div>
+            </div>
+            <div class="meter-scale">
+              <span>-60 dB</span>
+              <span>-40 dB</span>
+              <span>-24 dB</span>
+              <span>-14 dB (TARGET)</span>
+              <span>-6 dB</span>
+              <span class="clip">0 dB (CLIP)</span>
+            </div>
+          </div>
+
+          <!-- Equalizer Presets -->
+          <div class="eq-presets-row">
+            <span class="presets-label">AUDIO PROFILE:</span>
+            <div class="preset-buttons" id="eqPresetButtons">
+              <button class="preset-btn active" data-preset="Normalizer">AUTO BALANCED</button>
+              <button class="preset-btn" data-preset="Voice Clarity">VOICE CLARITY</button>
+              <button class="preset-btn" data-preset="Cinema Surround">CINEMA SURROUND</button>
+              <button class="preset-btn" data-preset="Bass Boost">BASS BOOST</button>
+              <button class="preset-btn" data-preset="Night Mode">NIGHT MODE</button>
+              <button class="preset-btn" data-preset="Studio Flat">FLAT RAW</button>
+            </div>
+          </div>
+
+          <!-- 3-Band Parametric Equalizer Sliders -->
+          <div class="eq-sliders-grid">
+            <div class="slider-group">
+              <div class="slider-header">
+                <span>BASS (120 Hz)</span>
+                <span class="slider-val" id="valBass">+0.0 dB</span>
+              </div>
+              <input type="range" id="sliderBass" min="-12" max="12" step="0.5" value="0" />
+            </div>
+            <div class="slider-group">
+              <div class="slider-header">
+                <span>MIDS (1.0 kHz)</span>
+                <span class="slider-val" id="valMids">+0.0 dB</span>
+              </div>
+              <input type="range" id="sliderMids" min="-12" max="12" step="0.5" value="0" />
+            </div>
+            <div class="slider-group">
+              <div class="slider-header">
+                <span>TREBLE (6.5 kHz)</span>
+                <span class="slider-val" id="valTreble">+0.0 dB</span>
+              </div>
+              <input type="range" id="sliderTreble" min="-12" max="12" step="0.5" value="0" />
+            </div>
+          </div>
+
+          <!-- Master Volume Slider -->
+          <div class="volume-slider-group">
+            <div class="slider-header">
+              <span>MASTER STREAM VOLUME</span>
+              <span class="slider-val" id="valVolume">100%</span>
+            </div>
+            <input type="range" id="sliderVolume" min="0" max="1" step="0.01" value="1.0" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 2: Expandable JSON Telemetry & Complete Directory Inspector -->
+    <div class="modal-backdrop hidden" id="jsonModalBackdrop">
+      <div class="cyber-modal json-modal" id="jsonModal">
+        <div class="modal-header">
+          <div class="modal-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <h2>EXPANDABLE TELEMETRY & CHANNELS JSON</h2>
+          </div>
+          <div class="json-header-actions">
+            <!-- Dataset Switcher -->
+            <button class="btn-small active-dataset" id="btnViewTelemetryJson">ACTIVE TELEMETRY</button>
+            <button class="btn-small" id="btnViewCompleteJson">COMPLETE DB (15,775 CH)</button>
+            <button class="btn-small" id="btnExpandAllJson">EXPAND ALL</button>
+            <button class="btn-small" id="btnCollapseAllJson">COLLAPSE ALL</button>
+            <button class="btn-small" id="btnCopyJson">COPY JSON</button>
+            <a class="btn-small btn-download" id="btnDownloadJson" href="/channels_complete.json" download="channels_complete.json">DOWNLOAD .JSON</a>
+            <button class="btn-close-modal" id="btnCloseJsonModal">×</button>
+          </div>
+        </div>
+
+        <div class="modal-body json-modal-content">
+          <!-- Active Channel Text Summary Card -->
+          <div class="active-summary-card" id="activeSummaryCard">
+            <div class="summary-top">
+              <span class="badge" id="sumBadge">ACTIVE CHANNEL SUMMARY</span>
+              <h3 id="sumChannelName">AccuWeather NOW (CH 101)</h3>
+            </div>
+            <div class="summary-grid">
+              <div class="sum-box">
+                <strong>PROGRAMMING OVERVIEW</strong>
+                <p id="sumOverview">...</p>
+              </div>
+              <div class="sum-box">
+                <strong>CORPORATE ENTITY & ORIGIN</strong>
+                <p id="sumCorporate">...</p>
+              </div>
+              <div class="sum-box">
+                <strong>SIGNAL QUALITY & 16:9 FITTING</strong>
+                <p id="sumSignalVerdict">...</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- JSON Search & Filter Bar -->
+          <div class="json-search-bar">
+            <input type="text" id="jsonSearchInput" placeholder="Search JSON keys, countries, codecs, companies, or cities..." />
+            <span class="json-counter" id="jsonMatchesCounter">Expandable Tree View</span>
+          </div>
+
+          <!-- The Interactive Expandable JSON Tree View -->
+          <div class="json-tree-container" id="jsonTreeContainer">
+            <pre class="json-code" id="jsonCodeTree">Loading channel database JSON...</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 3: Numeric Keypad Dial -->
+    <div class="modal-backdrop hidden" id="keypadModalBackdrop">
+      <div class="cyber-modal keypad-modal" id="keypadModal">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h2>DIRECT CHANNEL TUNER</h2>
+          </div>
+          <button class="btn-close-modal" id="btnCloseKeypadModal">×</button>
+        </div>
+        <div class="keypad-content">
+          <div class="keypad-display">
+            <span class="prefix">CH</span>
+            <span class="digits" id="keypadDigits">---</span>
+          </div>
+          <div class="keypad-grid">
+            <button class="key-btn" data-key="1">1</button>
+            <button class="key-btn" data-key="2">2</button>
+            <button class="key-btn" data-key="3">3</button>
+            <button class="key-btn" data-key="4">4</button>
+            <button class="key-btn" data-key="5">5</button>
+            <button class="key-btn" data-key="6">6</button>
+            <button class="key-btn" data-key="7">7</button>
+            <button class="key-btn" data-key="8">8</button>
+            <button class="key-btn" data-key="9">9</button>
+            <button class="key-btn key-clear" data-key="CLEAR">CLR</button>
+            <button class="key-btn" data-key="0">0</button>
+            <button class="key-btn key-enter" data-key="ENTER">TUNE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 4: DVR Saved Recordings Gallery -->
+    <div class="modal-backdrop hidden" id="dvrModalBackdrop">
+      <div class="cyber-modal dvr-modal" id="dvrModal">
+        <div class="modal-header">
+          <div class="modal-title">
+            <span class="dvr-dot"></span>
+            <h2>DVR SAVED RECORDINGS GALLERY</h2>
+          </div>
+          <button class="btn-close-modal" id="btnCloseDvrModal">×</button>
+        </div>
+        <div class="modal-body dvr-modal-content">
+          <div class="dvr-info-box">
+            <p>Clips recorded from live broadcasts are automatically named according to specification: <code>DVR_{timestamp}_CH{number}_{brandName}.webm</code> and downloaded to your disk.</p>
+          </div>
+          <div class="dvr-list" id="dvrRecordingsList">
+            <div class="dvr-empty-state">No clips recorded yet. Click <strong>DVR REC</strong> to start capturing live streams.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 5: Global 15,775 Channels Directory Browser -->
+    <div class="modal-backdrop hidden" id="globalDirectoryModalBackdrop">
+      <div class="cyber-modal global-directory-modal" id="globalDirectoryModal">
+        <div class="modal-header">
+          <div class="modal-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <h2>GLOBAL IPTV DIRECTORY // 15,775 CHANNELS ACROSS 177 COUNTRIES</h2>
+          </div>
+          <button class="btn-close-modal" id="btnCloseGlobalDirectoryModal">×</button>
+        </div>
+        <div class="modal-body directory-modal-content">
+          <!-- Comprehensive Directory Toolbar: Search, Sorting Filters, and Dimension Selectors -->
+          <div class="directory-toolbar-panel">
+            <div class="directory-toolbar-row top-row">
+              <div class="directory-search-wrapper">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" id="directorySearchInput" placeholder="Filter 15,775 channels by name, country, language, category, company, or resolution..." />
+                <button class="btn-clear-search hidden" id="btnClearDirectorySearch" title="Clear search query">×</button>
+              </div>
+              <div class="directory-stats-badge" id="directoryCountLabel">
+                Showing all channels
+              </div>
+            </div>
+
+            <div class="directory-toolbar-row controls-row">
+              <!-- Primary Sorting Controls -->
+              <div class="sort-control-group">
+                <span class="toolbar-pill-label">SORT FILTER:</span>
+                <div class="custom-select-wrapper">
+                  <select id="directorySortSelect" class="cyber-select directory-select" title="Select channel sort order">
+                    <option value="name">Channel Name (A → Z)</option>
+                    <option value="resolution">Broadcast Resolution (4K → SD)</option>
+                    <option value="country">Country of Origin (A → Z)</option>
+                    <option value="language">Broadcast Language (A → Z)</option>
+                    <option value="number">Channel Number (#)</option>
+                  </select>
+                </div>
+                <button class="btn-sort-dir" id="btnDirectorySortOrder" title="Toggle Ascending / Descending sort order">
+                  <span class="sort-dir-icon" id="sortDirIcon">▲</span>
+                  <span class="sort-dir-text" id="sortDirText">ASC</span>
+                </button>
+              </div>
+
+              <!-- Dimension Filter Selectors -->
+              <div class="filter-control-group">
+                <!-- Resolution Filter -->
+                <div class="filter-item">
+                  <label for="directoryResolutionFilter" class="filter-tag">RES:</label>
+                  <select id="directoryResolutionFilter" class="cyber-select directory-select-sm" title="Filter by Broadcast Resolution">
+                    <option value="ALL">All Res (4K/HD/SD)</option>
+                    <option value="4K">4K UHD (2160p)</option>
+                    <option value="1080p">1080p FHD</option>
+                    <option value="720p">720p HD</option>
+                    <option value="SD">SD (&lt; 720p)</option>
+                  </select>
+                </div>
+
+                <!-- Language Filter -->
+                <div class="filter-item">
+                  <label for="directoryLanguageFilter" class="filter-tag">LANG:</label>
+                  <select id="directoryLanguageFilter" class="cyber-select directory-select-sm" title="Filter by Broadcast Language">
+                    <option value="ALL">All Languages</option>
+                  </select>
+                </div>
+
+                <!-- Country Filter -->
+                <div class="filter-item">
+                  <label for="directoryCountryFilter" class="filter-tag">ORIGIN:</label>
+                  <select id="directoryCountryFilter" class="cyber-select directory-select-sm" title="Filter by Country of Origin">
+                    <option value="ALL">All Countries (177)</option>
+                  </select>
+                </div>
+
+                <button class="btn-reset-filters" id="btnResetDirectoryFilters" title="Reset all sorting and filters to default">
+                  <span>RESET</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Directory Table Container -->
+          <div class="directory-table-container">
+            <table class="directory-table" id="directoryTable">
+              <thead>
+                <tr>
+                  <th class="sortable-th" data-sort="number" title="Click to sort by Channel Number">
+                    <div class="th-content"><span>CH #</span><span class="th-sort-icon"></span></div>
+                  </th>
+                  <th class="sortable-th" data-sort="country" title="Click to sort by Country of Origin">
+                    <div class="th-content"><span>COUNTRY</span><span class="th-sort-icon"></span></div>
+                  </th>
+                  <th class="sortable-th active-sort-th" data-sort="name" title="Click to sort by Channel Name">
+                    <div class="th-content"><span>CHANNEL NAME</span><span class="th-sort-icon">▲</span></div>
+                  </th>
+                  <th class="sortable-th" data-sort="language" title="Click to sort by Broadcast Language">
+                    <div class="th-content"><span>LANGUAGE</span><span class="th-sort-icon"></span></div>
+                  </th>
+                  <th class="sortable-th" data-sort="resolution" title="Click to sort by Broadcast Resolution">
+                    <div class="th-content"><span>FORMAT / RES</span><span class="th-sort-icon"></span></div>
+                  </th>
+                  <th class="sortable-th" data-sort="category" title="Click to sort by Category">
+                    <div class="th-content"><span>CATEGORY</span><span class="th-sort-icon"></span></div>
+                  </th>
+                  <th class="sortable-th" data-sort="company" title="Click to sort by Responsible Company">
+                    <div class="th-content"><span>RESPONSIBLE COMPANY</span><span class="th-sort-icon"></span></div>
+                  </th>
+                  <th>ACTION</th>
+                </tr>
+              </thead>
+              <tbody id="directoryTableBody">
+                <!-- Dynamically filled with virtualized or paginated list -->
+              </tbody>
+            </table>
+            <div class="directory-load-more-bar" id="directoryLoadMoreBar">
+              <button class="btn-load-more" id="btnDirectoryLoadMore">
+                <span>LOAD MORE CHANNELS (+100)</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 6: AI Vision Scan & Gemma 4 Analysis Report Modal -->
+    <div class="modal-backdrop hidden" id="visionModalBackdrop">
+      <div class="cyber-modal vision-modal" id="visionModal">
+        <div class="modal-header">
+          <div class="modal-title">
+            <span class="vision-pulse-dot"></span>
+            <h2>OLLAMA GEMMA 4 // MULTIMODAL FEED VISION ANALYSIS</h2>
+          </div>
+          <button class="btn-close-modal" id="btnCloseVisionModal">×</button>
+        </div>
+        <div class="modal-body vision-modal-content">
+          <!-- Live Scan Status Banner -->
+          <div class="vision-status-banner" id="visionStatusBanner">
+            <div class="vision-spinner" id="visionSpinner"></div>
+            <div class="vision-status-text">
+              <strong id="visionStatusHeadline">Ready for Feed Capture</strong>
+              <span id="visionStatusSub">High-resolution frame capture & Gemma 4 inference</span>
+            </div>
+            <div class="vision-hw-badge" id="visionHwBadge">VRAM: 3.6 GB FREE (SAFE)</div>
+          </div>
+
+          <!-- Split Workspace: Snapshot Preview & Markdown Report -->
+          <div class="vision-workspace">
+            <div class="vision-preview-pane">
+              <div class="pane-title">CAPTURED SCREEN FRAME (<span id="visionFrameRes">1920x1080</span>)</div>
+              <div class="vision-img-wrapper">
+                <img id="visionFrameImg" alt="Live Feed Screen Capture" src="" />
+                <div class="vision-scan-line" id="visionScanLine"></div>
+              </div>
+            </div>
+
+            <div class="vision-report-pane">
+              <div class="pane-title-row">
+                <span class="pane-title">GENERATED MARKDOWN REPORT</span>
+                <div class="report-actions">
+                  <button class="btn-sm btn-action" id="btnDownloadReportMd" title="Download Markdown file">💾 SAVE .MD</button>
+                  <button class="btn-sm btn-action" id="btnCopyReportMd" title="Copy raw markdown">📋 COPY</button>
+                </div>
+              </div>
+              <div class="vision-report-viewer markdown-body" id="visionReportViewer">
+                <p class="placeholder-text">Click <strong>CAPTURE & ANALYZE FRAME</strong> to capture the current broadcast feed at full screen resolution and generate a detailed Gemma 4 markdown report.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Actions Footer -->
+          <div class="vision-modal-footer">
+            <button class="btn-secondary" id="btnCloseVisionModalBtn">CLOSE</button>
+            <button class="btn-primary btn-vision-trigger" id="btnTriggerVisionScan">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/></svg>
+              <span>CAPTURE & ANALYZE FRAME</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 7: Netball Live Match Scanner & US EST Radar -->
+    <div class="modal-backdrop hidden" id="netballModalBackdrop">
+      <div class="cyber-modal netball-modal" id="netballModal">
+        <div class="modal-header netball-modal-header">
+          <div class="modal-title">
+            <span class="netball-radar-dot pulse"></span>
+            <h2>NETBALL LIVE RADAR // CONSTELLATION CUP & INTERNATIONAL TESTS</h2>
+            <span class="badge badge-netball" id="netballTotalBadge">82 FEEDS</span>
+            <span class="badge badge-live" id="netballLiveBadge">0 LIVE</span>
+          </div>
+          <div class="modal-header-actions">
+            <!-- US EST Live Clock readout -->
+            <div class="est-clock-pill" title="Current US Eastern Time (EST/EDT)">
+              <span class="clock-label">🇺🇸 US EASTERN:</span>
+              <strong class="clock-value text-neon-cyan" id="netballEstClock">--:-- -- EDT</strong>
+            </div>
+            <button class="btn-sm btn-action btn-refresh-netball" id="btnRefreshNetballScan" title="Scan live EPG XML for newly scheduled matches">
+              <span class="scan-spinner-sm hidden" id="netballScanSpinner"></span>
+              <span class="btn-text">RE-SCAN EPG</span>
+            </button>
+            <button class="btn-close-modal" id="btnCloseNetballModal">×</button>
+          </div>
+        </div>
+
+        <div class="modal-body netball-modal-body">
+          <!-- Live Countdown & Series Spotlight Banner -->
+          <div class="netball-spotlight-banner">
+            <div class="spotlight-left">
+              <div class="trophy-tag">🏆 2026 CONSTELLATION CUP</div>
+              <h3 class="spotlight-headline">Australian Diamonds vs. New Zealand Silver Ferns</h3>
+              <div class="next-match-countdown-bar" id="netballNextCountdown">
+                <span class="badge-tag">NEXT TEST</span>
+                <span>Calculating next match countdown...</span>
+              </div>
+            </div>
+            <div class="spotlight-quick-links">
+              <span class="quick-links-title">VERIFIED STREAMING PLATFORMS</span>
+              <div class="quick-links-btns">
+                <a href="https://kayosports.com.au" target="_blank" rel="noopener noreferrer" class="btn-spotlight-pill kayo-spotlight" title="Watch Free in Australia on Kayo Freebies">
+                  <span class="btn-brand-icon">🇦🇺</span>
+                  <span>Kayo Freebies (Free Aus)</span>
+                </a>
+                <a href="https://www.netballpass.com" target="_blank" rel="noopener noreferrer" class="btn-spotlight-pill netballpass-spotlight" title="Official World Netball Global Live Stream">
+                  <span class="btn-brand-icon">🌍</span>
+                  <span>NetballPass (Worldwide)</span>
+                </a>
+                <a href="https://www.skysportnow.co.nz" target="_blank" rel="noopener noreferrer" class="btn-spotlight-pill skysport-spotlight" title="Sky Sport Now (New Zealand)">
+                  <span class="btn-brand-icon">🇳🇿</span>
+                  <span>Sky Sport Now</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls Bar: Filter Pills & Search Input -->
+          <div class="netball-controls-bar">
+            <div class="netball-filter-pills" id="netballFilterPills">
+              <button class="pill-btn active" data-filter="ALL">ALL FIXTURES</button>
+              <button class="pill-btn" data-filter="LIVE">🔴 LIVE & UPCOMING</button>
+              <button class="pill-btn" data-filter="TESTS">🏆 TEST MATCHES</button>
+              <button class="pill-btn" data-filter="HIGHLIGHTS">📼 HIGHLIGHTS</button>
+              <button class="pill-btn" data-filter="AU_NZ">🇦🇺 / 🇳🇿 BROADCASTS</button>
+            </div>
+
+            <div class="netball-search-wrap">
+              <svg class="search-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="text" id="netballSearchInput" placeholder="Filter by team, Game 1-4, venue (Perth, Melbourne), or time..." spellcheck="false" />
+              <span class="filter-count-label" id="netballMatchesCountLabel">Showing 82 Broadcasts</span>
+            </div>
+          </div>
+
+          <!-- Scrollable Curated Match Cards List -->
+          <div class="netball-cards-container" id="netballCardsContainer">
+            <!-- Populated dynamically by NetballScanner -->
+          </div>
+
+          <!-- Modal Footer with Keyboard Hint -->
+          <div class="netball-modal-footer">
+            <div class="keyboard-hints">
+              <span class="key-hint"><kbd>B</kbd> Toggle Netball Radar</span>
+              <span class="key-hint"><kbd>ESC</kbd> Close</span>
+            </div>
+            <button class="btn-secondary" id="btnCloseNetballModalBtn">CLOSE RADAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Text Popup Content Alert (ML & RSI Recommendation Notification) -->
+    <div class="content-alert-toast hidden" id="contentAlertPopup" role="alert">
+      <div class="alert-accent-glow"></div>
+      <div class="alert-content-wrap">
+        <div class="alert-header">
+          <div class="alert-header-left">
+            <span class="alert-pulse-beacon"></span>
+            <span class="alert-kicker">✨ MUST-SEE CONTENT ALERT // RSI MOMENTUM</span>
+          </div>
+          <div class="alert-header-right">
+            <span class="alert-score-badge" id="alertScoreBadge">95% MATCH</span>
+            <button class="alert-close-btn" id="btnCloseAlertPopup" title="Dismiss Alert">✕</button>
+          </div>
+        </div>
+        <div class="alert-body">
+          <h4 class="alert-title" id="alertShowTitle">Blade Runner 2049</h4>
+          <div class="alert-channel-line">
+            <span class="alert-now-on">NOW PLAYING ON:</span>
+            <strong class="alert-channel-name" id="alertChannelName">CH 103 • FilmRise Sci-Fi</strong>
+          </div>
+          <p class="alert-reason" id="alertReason">Matches your high RSI momentum for Denis Villeneuve, Sir Roger Deakins & ARRI ALEXA ARRIRAW.</p>
+        </div>
+        <div class="alert-actions">
+          <button class="btn-alert-tune" id="btnAlertTuneChannel">
+            <span>▶ SWITCH TO CHANNEL</span>
+          </button>
+          <button class="btn-alert-dismiss" id="btnAlertDismiss">
+            <span>LATER</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification Container (Pop-up interceptor) -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

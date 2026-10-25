@@ -1,0 +1,3454 @@
+{
+  "status": "SUCCESS",
+  "series": "Constellation Cup: Australia Diamonds vs New Zealand Silver Ferns",
+  "generatedAt": "2026-10-24T21:27:43.572906+00:00",
+  "totalBroadcasts": 82,
+  "liveCount": 0,
+  "upcomingCount": 1,
+  "items": [
+    {
+      "id": "netball-17",
+      "channel": "Sky Sport 2",
+      "channelId": "358",
+      "title": "Constellation Cup",
+      "subtitle": "LIVE: Silver Ferns v Diamonds: G3",
+      "description": "LIVE coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-25T04:30:00+00:00",
+      "stopUtc": "2026-10-25T07:00:00+00:00",
+      "estSchedule": "Sun, Oct 25 \u2022 12:30 AM EDT (US Eastern)",
+      "estTimeShort": "12:30 AM EDT",
+      "aedtSchedule": "Sun, Oct 25 \u2022 03:30 PM AEDT",
+      "awstSchedule": "Sun, Oct 25 \u2022 12:30 PM AWST",
+      "nzdtSchedule": "Sun, Oct 25 \u2022 05:30 PM NZDT",
+      "isLive": true,
+      "isHighlight": false,
+      "status": "STARTING SOON",
+      "startTimestamp": 1792902600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-12",
+      "channel": "Sky Sport 7",
+      "channelId": "357",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-25T10:00:00+00:00",
+      "stopUtc": "2026-10-25T11:50:00+00:00",
+      "estSchedule": "Sun, Oct 25 \u2022 06:00 AM EDT (US Eastern)",
+      "estTimeShort": "06:00 AM EDT",
+      "aedtSchedule": "Sun, Oct 25 \u2022 09:00 PM AEDT",
+      "awstSchedule": "Sun, Oct 25 \u2022 06:00 PM AWST",
+      "nzdtSchedule": "Sun, Oct 25 \u2022 11:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792922400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-13",
+      "channel": "Sky Sport 7",
+      "channelId": "357",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-25T14:00:00+00:00",
+      "stopUtc": "2026-10-25T14:15:00+00:00",
+      "estSchedule": "Sun, Oct 25 \u2022 10:00 AM EDT (US Eastern)",
+      "estTimeShort": "10:00 AM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 01:00 AM AEDT",
+      "awstSchedule": "Sun, Oct 25 \u2022 10:00 PM AWST",
+      "nzdtSchedule": "Mon, Oct 26 \u2022 03:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792936800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-56",
+      "channel": "Sky Sport 4",
+      "channelId": "345",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-25T17:10:00+00:00",
+      "stopUtc": "2026-10-25T19:00:00+00:00",
+      "estSchedule": "Sun, Oct 25 \u2022 01:10 PM EDT (US Eastern)",
+      "estTimeShort": "01:10 PM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 04:10 AM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 01:10 AM AWST",
+      "nzdtSchedule": "Mon, Oct 26 \u2022 06:10 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792948200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-42",
+      "channel": "Sky Sport Select",
+      "channelId": "353",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-25T17:45:00+00:00",
+      "stopUtc": "2026-10-25T18:00:00+00:00",
+      "estSchedule": "Sun, Oct 25 \u2022 01:45 PM EDT (US Eastern)",
+      "estTimeShort": "01:45 PM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 04:45 AM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 01:45 AM AWST",
+      "nzdtSchedule": "Mon, Oct 26 \u2022 06:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792950300,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-57",
+      "channel": "Sky Sport 4",
+      "channelId": "345",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-25T22:00:00+00:00",
+      "stopUtc": "2026-10-26T00:00:00+00:00",
+      "estSchedule": "Sun, Oct 25 \u2022 06:00 PM EDT (US Eastern)",
+      "estTimeShort": "06:00 PM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 09:00 AM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 06:00 AM AWST",
+      "nzdtSchedule": "Mon, Oct 26 \u2022 11:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792965600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-21",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T05:00:00+00:00",
+      "stopUtc": "2026-10-26T05:15:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 01:00 AM EDT (US Eastern)",
+      "estTimeShort": "01:00 AM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 04:00 PM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 01:00 PM AWST",
+      "nzdtSchedule": "Mon, Oct 26 \u2022 06:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792990800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-60",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T05:00:00+00:00",
+      "stopUtc": "2026-10-26T05:15:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 01:00 AM EDT (US Eastern)",
+      "estTimeShort": "01:00 AM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 04:00 PM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 01:00 PM AWST",
+      "nzdtSchedule": "Mon, Oct 26 \u2022 06:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792990800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-75",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T07:00:00+00:00",
+      "stopUtc": "2026-10-26T09:00:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 03:00 AM EDT (US Eastern)",
+      "estTimeShort": "03:00 AM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 06:00 PM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 03:00 PM AWST",
+      "nzdtSchedule": "Mon, Oct 26 \u2022 08:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1792998000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-22",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T12:00:00+00:00",
+      "stopUtc": "2026-10-26T14:00:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 08:00 AM EDT (US Eastern)",
+      "estTimeShort": "08:00 AM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 11:00 PM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 08:00 PM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 01:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793016000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-61",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T12:00:00+00:00",
+      "stopUtc": "2026-10-26T14:00:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 08:00 AM EDT (US Eastern)",
+      "estTimeShort": "08:00 AM EDT",
+      "aedtSchedule": "Mon, Oct 26 \u2022 11:00 PM AEDT",
+      "awstSchedule": "Mon, Oct 26 \u2022 08:00 PM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 01:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793016000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-58",
+      "channel": "Sky Sport 4",
+      "channelId": "345",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T18:45:00+00:00",
+      "stopUtc": "2026-10-26T19:00:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 02:45 PM EDT (US Eastern)",
+      "estTimeShort": "02:45 PM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 05:45 AM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 02:45 AM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 07:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793040300,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-23",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T20:15:00+00:00",
+      "stopUtc": "2026-10-26T20:30:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 04:15 PM EDT (US Eastern)",
+      "estTimeShort": "04:15 PM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 07:15 AM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 04:15 AM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 09:15 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793045700,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-62",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T20:15:00+00:00",
+      "stopUtc": "2026-10-26T20:30:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 04:15 PM EDT (US Eastern)",
+      "estTimeShort": "04:15 PM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 07:15 AM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 04:15 AM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 09:15 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793045700,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-24",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T23:15:00+00:00",
+      "stopUtc": "2026-10-26T23:30:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 07:15 PM EDT (US Eastern)",
+      "estTimeShort": "07:15 PM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 10:15 AM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 07:15 AM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 12:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793056500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-63",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-26T23:15:00+00:00",
+      "stopUtc": "2026-10-26T23:30:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 07:15 PM EDT (US Eastern)",
+      "estTimeShort": "07:15 PM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 10:15 AM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 07:15 AM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 12:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793056500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-18",
+      "channel": "Sky Sport 2",
+      "channelId": "358",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T02:15:00+00:00",
+      "stopUtc": "2026-10-27T02:30:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 10:15 PM EDT (US Eastern)",
+      "estTimeShort": "10:15 PM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 01:15 PM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 10:15 AM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 03:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793067300,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-76",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T03:15:00+00:00",
+      "stopUtc": "2026-10-27T03:30:00+00:00",
+      "estSchedule": "Mon, Oct 26 \u2022 11:15 PM EDT (US Eastern)",
+      "estTimeShort": "11:15 PM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 02:15 PM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 11:15 AM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 04:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793070900,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-49",
+      "channel": "Sky Sport 3",
+      "channelId": "354",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T04:30:00+00:00",
+      "stopUtc": "2026-10-27T06:30:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 12:30 AM EDT (US Eastern)",
+      "estTimeShort": "12:30 AM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 03:30 PM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 12:30 PM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 05:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793075400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-14",
+      "channel": "Sky Sport 7",
+      "channelId": "357",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T06:15:00+00:00",
+      "stopUtc": "2026-10-27T06:30:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 02:15 AM EDT (US Eastern)",
+      "estTimeShort": "02:15 AM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 05:15 PM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 02:15 PM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 07:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793081700,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-43",
+      "channel": "Sky Sport Select",
+      "channelId": "353",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T06:45:00+00:00",
+      "stopUtc": "2026-10-27T07:00:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 02:45 AM EDT (US Eastern)",
+      "estTimeShort": "02:45 AM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 05:45 PM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 02:45 PM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 07:45 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793083500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-77",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T10:00:00+00:00",
+      "stopUtc": "2026-10-27T10:15:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 06:00 AM EDT (US Eastern)",
+      "estTimeShort": "06:00 AM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 09:00 PM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 06:00 PM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 11:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793095200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-36",
+      "channel": "Sky Sport 9",
+      "channelId": "356",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T10:45:00+00:00",
+      "stopUtc": "2026-10-27T11:00:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 06:45 AM EDT (US Eastern)",
+      "estTimeShort": "06:45 AM EDT",
+      "aedtSchedule": "Tue, Oct 27 \u2022 09:45 PM AEDT",
+      "awstSchedule": "Tue, Oct 27 \u2022 06:45 PM AWST",
+      "nzdtSchedule": "Tue, Oct 27 \u2022 11:45 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793097900,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-1",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T21:45:00+00:00",
+      "stopUtc": "2026-10-27T22:00:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 05:45 PM EDT (US Eastern)",
+      "estTimeShort": "05:45 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 08:45 AM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 05:45 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 10:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793137500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-50",
+      "channel": "Sky Sport 3",
+      "channelId": "354",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-27T22:45:00+00:00",
+      "stopUtc": "2026-10-27T23:00:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 06:45 PM EDT (US Eastern)",
+      "estTimeShort": "06:45 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 09:45 AM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 06:45 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 11:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793141100,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-19",
+      "channel": "Sky Sport 2",
+      "channelId": "358",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T02:00:00+00:00",
+      "stopUtc": "2026-10-28T04:00:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 10:00 PM EDT (US Eastern)",
+      "estTimeShort": "10:00 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 01:00 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 10:00 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 03:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793152800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-2",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-28T02:30:00+00:00",
+      "stopUtc": "2026-10-28T02:45:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 10:30 PM EDT (US Eastern)",
+      "estTimeShort": "10:30 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 01:30 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 10:30 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 03:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793154600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-3",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-28T02:45:00+00:00",
+      "stopUtc": "2026-10-28T03:00:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 10:45 PM EDT (US Eastern)",
+      "estTimeShort": "10:45 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 01:45 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 10:45 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 03:45 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793155500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-4",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T03:00:00+00:00",
+      "stopUtc": "2026-10-28T03:15:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 11:00 PM EDT (US Eastern)",
+      "estTimeShort": "11:00 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 02:00 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 11:00 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 04:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793156400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-25",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T03:30:00+00:00",
+      "stopUtc": "2026-10-28T05:30:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 11:30 PM EDT (US Eastern)",
+      "estTimeShort": "11:30 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 02:30 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 11:30 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 04:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793158200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-64",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T03:30:00+00:00",
+      "stopUtc": "2026-10-28T05:30:00+00:00",
+      "estSchedule": "Tue, Oct 27 \u2022 11:30 PM EDT (US Eastern)",
+      "estTimeShort": "11:30 PM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 02:30 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 11:30 AM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 04:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793158200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-26",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-28T07:15:00+00:00",
+      "stopUtc": "2026-10-28T07:30:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 03:15 AM EDT (US Eastern)",
+      "estTimeShort": "03:15 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 06:15 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 03:15 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 08:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793171700,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-65",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-28T07:15:00+00:00",
+      "stopUtc": "2026-10-28T07:30:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 03:15 AM EDT (US Eastern)",
+      "estTimeShort": "03:15 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 06:15 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 03:15 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 08:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793171700,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-27",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-28T07:30:00+00:00",
+      "stopUtc": "2026-10-28T07:45:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 03:30 AM EDT (US Eastern)",
+      "estTimeShort": "03:30 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 06:30 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 03:30 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 08:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793172600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-66",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-28T07:30:00+00:00",
+      "stopUtc": "2026-10-28T07:45:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 03:30 AM EDT (US Eastern)",
+      "estTimeShort": "03:30 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 06:30 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 03:30 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 08:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793172600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-28",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T07:45:00+00:00",
+      "stopUtc": "2026-10-28T08:00:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 03:45 AM EDT (US Eastern)",
+      "estTimeShort": "03:45 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 06:45 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 03:45 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 08:45 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793173500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-67",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T07:45:00+00:00",
+      "stopUtc": "2026-10-28T08:00:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 03:45 AM EDT (US Eastern)",
+      "estTimeShort": "03:45 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 06:45 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 03:45 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 08:45 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793173500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-29",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "LIVE: Silver Ferns v Diamonds: G4",
+      "description": "LIVE coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T08:00:00+00:00",
+      "stopUtc": "2026-10-28T10:30:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 04:00 AM EDT (US Eastern)",
+      "estTimeShort": "04:00 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 07:00 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 04:00 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 09:00 PM NZDT",
+      "isLive": true,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793174400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-68",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "LIVE: Silver Ferns v Diamonds: G4",
+      "description": "LIVE coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T08:00:00+00:00",
+      "stopUtc": "2026-10-28T10:30:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 04:00 AM EDT (US Eastern)",
+      "estTimeShort": "04:00 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 07:00 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 04:00 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 09:00 PM NZDT",
+      "isLive": true,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793174400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-5",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-28T09:00:00+00:00",
+      "stopUtc": "2026-10-28T09:15:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 05:00 AM EDT (US Eastern)",
+      "estTimeShort": "05:00 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 08:00 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 05:00 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 10:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793178000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-6",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T09:15:00+00:00",
+      "stopUtc": "2026-10-28T11:15:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 05:15 AM EDT (US Eastern)",
+      "estTimeShort": "05:15 AM EDT",
+      "aedtSchedule": "Wed, Oct 28 \u2022 08:15 PM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 05:15 PM AWST",
+      "nzdtSchedule": "Wed, Oct 28 \u2022 10:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793178900,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-20",
+      "channel": "Sky Sport 2",
+      "channelId": "358",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T13:00:00+00:00",
+      "stopUtc": "2026-10-28T15:00:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 09:00 AM EDT (US Eastern)",
+      "estTimeShort": "09:00 AM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 12:00 AM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 09:00 PM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 02:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793192400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-59",
+      "channel": "Sky Sport 4",
+      "channelId": "345",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T13:00:00+00:00",
+      "stopUtc": "2026-10-28T13:15:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 09:00 AM EDT (US Eastern)",
+      "estTimeShort": "09:00 AM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 12:00 AM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 09:00 PM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 02:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793192400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-30",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T14:30:00+00:00",
+      "stopUtc": "2026-10-28T14:45:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 10:30 AM EDT (US Eastern)",
+      "estTimeShort": "10:30 AM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 01:30 AM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 10:30 PM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 03:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793197800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-69",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T14:30:00+00:00",
+      "stopUtc": "2026-10-28T14:45:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 10:30 AM EDT (US Eastern)",
+      "estTimeShort": "10:30 AM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 01:30 AM AEDT",
+      "awstSchedule": "Wed, Oct 28 \u2022 10:30 PM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 03:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793197800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-31",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T17:00:00+00:00",
+      "stopUtc": "2026-10-28T19:00:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 01:00 PM EDT (US Eastern)",
+      "estTimeShort": "01:00 PM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 04:00 AM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 01:00 AM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 06:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793206800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-70",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T17:00:00+00:00",
+      "stopUtc": "2026-10-28T19:00:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 01:00 PM EDT (US Eastern)",
+      "estTimeShort": "01:00 PM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 04:00 AM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 01:00 AM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 06:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793206800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-15",
+      "channel": "Sky Sport 7",
+      "channelId": "357",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-28T17:30:00+00:00",
+      "stopUtc": "2026-10-28T17:45:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 01:30 PM EDT (US Eastern)",
+      "estTimeShort": "01:30 PM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 04:30 AM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 01:30 AM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 06:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793208600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-16",
+      "channel": "Sky Sport 7",
+      "channelId": "357",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T17:45:00+00:00",
+      "stopUtc": "2026-10-28T18:00:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 01:45 PM EDT (US Eastern)",
+      "estTimeShort": "01:45 PM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 04:45 AM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 01:45 AM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 06:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793209500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-44",
+      "channel": "Sky Sport Select",
+      "channelId": "353",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-28T23:15:00+00:00",
+      "stopUtc": "2026-10-29T01:15:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 07:15 PM EDT (US Eastern)",
+      "estTimeShort": "07:15 PM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 10:15 AM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 07:15 AM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 12:15 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793229300,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-37",
+      "channel": "Sky Sport 9",
+      "channelId": "356",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T01:00:00+00:00",
+      "stopUtc": "2026-10-29T01:15:00+00:00",
+      "estSchedule": "Wed, Oct 28 \u2022 09:00 PM EDT (US Eastern)",
+      "estTimeShort": "09:00 PM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 12:00 PM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 09:00 AM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 02:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793235600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-7",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T04:30:00+00:00",
+      "stopUtc": "2026-10-29T06:30:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 12:30 AM EDT (US Eastern)",
+      "estTimeShort": "12:30 AM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 03:30 PM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 12:30 PM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 05:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793248200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-51",
+      "channel": "Sky Sport 3",
+      "channelId": "354",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T06:30:00+00:00",
+      "stopUtc": "2026-10-29T08:30:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 02:30 AM EDT (US Eastern)",
+      "estTimeShort": "02:30 AM EDT",
+      "aedtSchedule": "Thu, Oct 29 \u2022 05:30 PM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 02:30 PM AWST",
+      "nzdtSchedule": "Thu, Oct 29 \u2022 07:30 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793255400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-78",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T13:30:00+00:00",
+      "stopUtc": "2026-10-29T15:30:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 09:30 AM EDT (US Eastern)",
+      "estTimeShort": "09:30 AM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 12:30 AM AEDT",
+      "awstSchedule": "Thu, Oct 29 \u2022 09:30 PM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 02:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793280600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-32",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-29T17:00:00+00:00",
+      "stopUtc": "2026-10-29T17:15:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:00 PM EDT (US Eastern)",
+      "estTimeShort": "01:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793293200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-71",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-29T17:00:00+00:00",
+      "stopUtc": "2026-10-29T17:15:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:00 PM EDT (US Eastern)",
+      "estTimeShort": "01:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793293200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-33",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-29T17:15:00+00:00",
+      "stopUtc": "2026-10-29T17:30:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:15 PM EDT (US Eastern)",
+      "estTimeShort": "01:15 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:15 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:15 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:15 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793294100,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-72",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-29T17:15:00+00:00",
+      "stopUtc": "2026-10-29T17:30:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:15 PM EDT (US Eastern)",
+      "estTimeShort": "01:15 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:15 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:15 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:15 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793294100,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-34",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-29T17:30:00+00:00",
+      "stopUtc": "2026-10-29T17:45:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:30 PM EDT (US Eastern)",
+      "estTimeShort": "01:30 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:30 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:30 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793295000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-73",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-29T17:30:00+00:00",
+      "stopUtc": "2026-10-29T17:45:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:30 PM EDT (US Eastern)",
+      "estTimeShort": "01:30 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:30 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:30 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793295000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-35",
+      "channel": "Sky Sport 1 UHD",
+      "channelId": "1412",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T17:45:00+00:00",
+      "stopUtc": "2026-10-29T18:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:45 PM EDT (US Eastern)",
+      "estTimeShort": "01:45 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:45 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:45 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793295900,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-74",
+      "channel": "Sky Sport 1",
+      "channelId": "341",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T17:45:00+00:00",
+      "stopUtc": "2026-10-29T18:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 01:45 PM EDT (US Eastern)",
+      "estTimeShort": "01:45 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 04:45 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 01:45 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 06:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793295900,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-79",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-29T19:00:00+00:00",
+      "stopUtc": "2026-10-29T19:15:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 03:00 PM EDT (US Eastern)",
+      "estTimeShort": "03:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 06:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 03:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 08:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793300400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-80",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-29T19:15:00+00:00",
+      "stopUtc": "2026-10-29T19:30:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 03:15 PM EDT (US Eastern)",
+      "estTimeShort": "03:15 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 06:15 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 03:15 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 08:15 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793301300,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-81",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-29T19:30:00+00:00",
+      "stopUtc": "2026-10-29T19:45:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 03:30 PM EDT (US Eastern)",
+      "estTimeShort": "03:30 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 06:30 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 03:30 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 08:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793302200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-82",
+      "channel": "Sky Sport 5",
+      "channelId": "342",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T19:45:00+00:00",
+      "stopUtc": "2026-10-29T20:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 03:45 PM EDT (US Eastern)",
+      "estTimeShort": "03:45 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 06:45 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 03:45 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 08:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793303100,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-52",
+      "channel": "Sky Sport 3",
+      "channelId": "354",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1",
+      "description": "Coverage of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-29T21:00:00+00:00",
+      "stopUtc": "2026-10-29T23:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 05:00 PM EDT (US Eastern)",
+      "estTimeShort": "05:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 08:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 05:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 10:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793307600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-8",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-29T21:30:00+00:00",
+      "stopUtc": "2026-10-29T21:45:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 05:30 PM EDT (US Eastern)",
+      "estTimeShort": "05:30 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 08:30 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 05:30 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 10:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793309400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-9",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-29T21:45:00+00:00",
+      "stopUtc": "2026-10-29T22:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 05:45 PM EDT (US Eastern)",
+      "estTimeShort": "05:45 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 08:45 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 05:45 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 10:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793310300,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-10",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-29T22:00:00+00:00",
+      "stopUtc": "2026-10-29T22:15:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 06:00 PM EDT (US Eastern)",
+      "estTimeShort": "06:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 09:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 06:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 11:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793311200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-11",
+      "channel": "Sky Sport 6",
+      "channelId": "359",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-29T22:15:00+00:00",
+      "stopUtc": "2026-10-29T22:30:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 06:15 PM EDT (US Eastern)",
+      "estTimeShort": "06:15 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 09:15 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 06:15 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 11:15 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793312100,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-53",
+      "channel": "Sky Sport 3",
+      "channelId": "354",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2",
+      "description": "Coverage of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-29T23:00:00+00:00",
+      "stopUtc": "2026-10-30T01:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 07:00 PM EDT (US Eastern)",
+      "estTimeShort": "07:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 10:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 07:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 12:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793314800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-54",
+      "channel": "Sky Sport 3",
+      "channelId": "354",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-30T01:00:00+00:00",
+      "stopUtc": "2026-10-30T03:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 09:00 PM EDT (US Eastern)",
+      "estTimeShort": "09:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 12:00 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 09:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 02:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793322000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-55",
+      "channel": "Sky Sport 3",
+      "channelId": "354",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-30T03:00:00+00:00",
+      "stopUtc": "2026-10-30T05:00:00+00:00",
+      "estSchedule": "Thu, Oct 29 \u2022 11:00 PM EDT (US Eastern)",
+      "estTimeShort": "11:00 PM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 02:00 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 11:00 AM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 04:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793329200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-38",
+      "channel": "Sky Sport 9",
+      "channelId": "356",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1",
+      "description": "Coverage of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-30T09:00:00+00:00",
+      "stopUtc": "2026-10-30T11:00:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 05:00 AM EDT (US Eastern)",
+      "estTimeShort": "05:00 AM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 08:00 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 05:00 PM AWST",
+      "nzdtSchedule": "Fri, Oct 30 \u2022 10:00 PM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793350800,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-39",
+      "channel": "Sky Sport 9",
+      "channelId": "356",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2",
+      "description": "Coverage of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-30T11:00:00+00:00",
+      "stopUtc": "2026-10-30T13:00:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 07:00 AM EDT (US Eastern)",
+      "estTimeShort": "07:00 AM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 10:00 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 07:00 PM AWST",
+      "nzdtSchedule": "Sat, Oct 31 \u2022 12:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793358000,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-45",
+      "channel": "Sky Sport Select",
+      "channelId": "353",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G1 Hls",
+      "description": "Highlights of Game 1 of the Constellation Cup from Spark Arena, Auckland. The fierce trans-Tasman rivalry reignites as the Silver Ferns and Australian Diamonds clash in the opening match of the four-game series.",
+      "startUtc": "2026-10-30T12:00:00+00:00",
+      "stopUtc": "2026-10-30T12:15:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 08:00 AM EDT (US Eastern)",
+      "estTimeShort": "08:00 AM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 11:00 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 08:00 PM AWST",
+      "nzdtSchedule": "Sat, Oct 31 \u2022 01:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793361600,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-46",
+      "channel": "Sky Sport Select",
+      "channelId": "353",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G2 Hls",
+      "description": "Highlights of Game 2 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Wolfbrook Arena in Christchurch.",
+      "startUtc": "2026-10-30T12:15:00+00:00",
+      "stopUtc": "2026-10-30T12:30:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 08:15 AM EDT (US Eastern)",
+      "estTimeShort": "08:15 AM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 11:15 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 08:15 PM AWST",
+      "nzdtSchedule": "Sat, Oct 31 \u2022 01:15 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793362500,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-47",
+      "channel": "Sky Sport Select",
+      "channelId": "353",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3 Hls",
+      "description": "Highlights of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-30T12:30:00+00:00",
+      "stopUtc": "2026-10-30T12:45:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 08:30 AM EDT (US Eastern)",
+      "estTimeShort": "08:30 AM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 11:30 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 08:30 PM AWST",
+      "nzdtSchedule": "Sat, Oct 31 \u2022 01:30 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793363400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-48",
+      "channel": "Sky Sport Select",
+      "channelId": "353",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4 Hls",
+      "description": "Highlights of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-30T12:45:00+00:00",
+      "stopUtc": "2026-10-30T13:00:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 08:45 AM EDT (US Eastern)",
+      "estTimeShort": "08:45 AM EDT",
+      "aedtSchedule": "Fri, Oct 30 \u2022 11:45 PM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 08:45 PM AWST",
+      "nzdtSchedule": "Sat, Oct 31 \u2022 01:45 AM NZDT",
+      "isLive": false,
+      "isHighlight": true,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793364300,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-40",
+      "channel": "Sky Sport 9",
+      "channelId": "356",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G3",
+      "description": "Coverage of Game 3 of the Constellation Cup. Tune in for all the netball action as the Silver Ferns and the Australian Diamonds take to the court at Afterpay Arena in Sydney.",
+      "startUtc": "2026-10-30T13:00:00+00:00",
+      "stopUtc": "2026-10-30T15:00:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 09:00 AM EDT (US Eastern)",
+      "estTimeShort": "09:00 AM EDT",
+      "aedtSchedule": "Sat, Oct 31 \u2022 12:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 09:00 PM AWST",
+      "nzdtSchedule": "Sat, Oct 31 \u2022 02:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793365200,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    },
+    {
+      "id": "netball-41",
+      "channel": "Sky Sport 9",
+      "channelId": "356",
+      "title": "Constellation Cup",
+      "subtitle": "Silver Ferns v Diamonds: G4",
+      "description": "Coverage of Game 4 of the Constellation Cup from John Cain Arena, Melbourne. The Silver Ferns and Australian Diamonds collide in a thrilling series finale as one of netball's greatest rivalries takes centre stage.",
+      "startUtc": "2026-10-30T15:00:00+00:00",
+      "stopUtc": "2026-10-30T17:00:00+00:00",
+      "estSchedule": "Fri, Oct 30 \u2022 11:00 AM EDT (US Eastern)",
+      "estTimeShort": "11:00 AM EDT",
+      "aedtSchedule": "Sat, Oct 31 \u2022 02:00 AM AEDT",
+      "awstSchedule": "Fri, Oct 30 \u2022 11:00 PM AWST",
+      "nzdtSchedule": "Sat, Oct 31 \u2022 04:00 AM NZDT",
+      "isLive": false,
+      "isHighlight": false,
+      "status": "SCHEDULED",
+      "startTimestamp": 1793372400,
+      "links": [
+        {
+          "title": "Kayo Freebies (Free Australia Stream)",
+          "url": "https://kayosports.com.au",
+          "type": "external",
+          "badge": "\ud83c\udde6\ud83c\uddfa Kayo Freebies",
+          "action": "open"
+        },
+        {
+          "title": "NetballPass (World Netball Global Feed)",
+          "url": "https://www.netballpass.com",
+          "type": "external",
+          "badge": "\ud83c\udf0d NetballPass",
+          "action": "open"
+        },
+        {
+          "title": "Sky Sport Now (New Zealand OTT)",
+          "url": "https://www.skysportnow.co.nz",
+          "type": "external",
+          "badge": "\ud83c\uddf3\ud83c\uddff Sky Sport",
+          "action": "open"
+        }
+      ]
+    }
+  ]
+}
